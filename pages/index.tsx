@@ -6,6 +6,7 @@ import styles from '@/styles/Home.module.css'
 const inter = Inter({ subsets: ['latin'] })
 
 const bla = 'textoaa'
+const bla2 = 'textoaa'
 export default function Home() {
   return (
     <>
