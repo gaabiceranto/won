@@ -7,11 +7,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint src --max-warnings=0",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "lint-staged": "lint-staged"
   },
   "lint-staged": {
     "src/**/*": [
-      "npm run lint --fix"
+      "npm run lint"
     ]
   },
   "dependencies": {
